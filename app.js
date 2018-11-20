@@ -40,7 +40,7 @@ app.use(function(req, res, next) {
   res.locals.connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'D00dl3Bug72;',
+    password : 'whateverPasswordYouGot',
     database : 'ngr'
   });
   res.locals.connection.connect();
